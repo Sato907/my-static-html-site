@@ -21,6 +21,36 @@ h1 {
     font-size: 1.5em;
 }
 
+.badge-row {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 16px 0;
+}
+
+.badge {
+    background-color: #e6f2fb;
+    color: #0078d4;
+    font-size: 0.8em;
+    padding: 4px 10px;
+    border-radius: 999px;
+}
+
+.clock {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 24px;
+    letter-spacing: 0.05em;
+}
+
+.hint {
+    font-size: 0.75em;
+    color: #999999;
+    margin-top: 4px;
+}
+
 .version {
     margin-top: 24px;
     color: #666666;
